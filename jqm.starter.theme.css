@@ -18,9 +18,9 @@
 -----------------------------------------------------------------------------------------------------------*/
 
 .ui-bar-a {
-	border: 1px solid 		#b3b3b3 /*{a-bar-border}*/;
-	background: 			#eeeeee /*{a-bar-background-color}*/;
-	color: 					#3e3e3e /*{a-bar-color}*/;
+	border: 1px solid 		#34495e /*{a-bar-border}*/;
+	background: 			#34495e /*{a-bar-background-color}*/;
+	color: 					#ffffff /*{a-bar-color}*/;
 	font-weight: bold;
 }
 .ui-bar-a .ui-link-inherit {
@@ -55,7 +55,7 @@
 .ui-overlay-a {
 	border: 1px solid 		#aaaaaa /*{a-body-border}*/;
 	color: 					#333333 /*{a-body-color}*/;
-	background: 			#f9f9f9 /*{a-body-background-color}*/;
+	background: 			#ffffff /*{a-body-background-color}*/;
 }
 .ui-overlay-a {
 	background-image: none;
@@ -437,8 +437,8 @@ a.ui-link-inherit {
 /* Button corner class
 -----------------------------------------------------------------------------------------------------------*/
 .ui-btn-corner-all {
-	-webkit-border-radius: 				1em /*{global-radii-buttons}*/;
-	border-radius: 						1em /*{global-radii-buttons}*/;
+	-webkit-border-radius: 				4px /*{global-radii-buttons}*/;
+	border-radius: 						4px /*{global-radii-buttons}*/;
 }
 
 /* radius clip workaround for cleaning up corner trapping */
