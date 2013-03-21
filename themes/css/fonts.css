@@ -4,8 +4,8 @@
 
 @font-face {
   font-family: "Flat-UI-Icons-24";
-  src: url("fonts/Flat-UI-Icons-24.eot");
-  src: url("fonts/Flat-UI-Icons-24.eot?#iefix") format("embedded-opentype"), url("fonts/Flat-UI-Icons-24.woff") format("woff"), url("fonts/Flat-UI-Icons-24.ttf") format("truetype"), url("fonts/Flat-UI-Icons-24.svg#Flat-UI-Icons-24") format("svg");
+  src: url("../fonts/Flat-UI-Icons-24.eot");
+  src: url("../fonts/Flat-UI-Icons-24.eot?#iefix") format("embedded-opentype"), url("../fonts/Flat-UI-Icons-24.woff") format("woff"), url("../fonts/Flat-UI-Icons-24.ttf") format("truetype"), url("../fonts/Flat-UI-Icons-24.svg#Flat-UI-Icons-24") format("svg");
   font-weight: normal;
   font-style: normal; }
 

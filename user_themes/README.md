@@ -1,1 +1,0 @@
-This is where theme files are temporarily stored when a user "shares" a theme.

@@ -1,13 +1,3 @@
-/*
-* jQuery Mobile Git Build: SHA1: 9130927464f2d3e0300a9fb36ebfd69448cf3675 <> Date: Wed Feb 20 11:08:42 2013 -0800
-* http://jquerymobile.com
-*
-* Copyright 2010, 2013 jQuery Foundation, Inc. and other contributors
-* Released under the MIT license.
-* http://jquery.org/license
-*
-*/
-
 /* Swatches */
 
 /* A
@@ -91,6 +81,14 @@
 	color: #2489ce /*{a-body-link-active}*/;
 }
 
+.ui-body-a.ui-input-text.ui-focus {
+  border: 2px solid #1abc9c;
+  -webkit-transition: border linear 0.2s;
+  -moz-transition: border linear 0.2s;
+  -o-transition: border linear 0.2s;
+  transition: border linear 0.2s;
+}
+
 .ui-btn-up-a {
 	border: 1px solid 		#ECF0F1 /*{a-bup-border}*/;
 	background: 			#ECF0F1 /*{a-bup-background-color}*/;
@@ -102,8 +100,8 @@
 	color: 					#2f3e46 /*{a-bup-color}*/;
 }
 .ui-btn-hover-a {
-	border: 1px solid 		#ECF0F2 /*{a-bhover-border}*/;
-	background: 			#ECF0F2 /*{a-bhover-background-color}*/;
+	border: 1px solid 		#E6EAEB /*{a-bhover-border}*/;
+	background: 			#E6EAEB /*{a-bhover-background-color}*/;
 	font-weight: bold;
 	color: 					#222222 /*{a-bhover-color}*/;
 }
@@ -113,8 +111,8 @@
 	color: 					#2f3e46 /*{a-bhover-color}*/;
 }
 .ui-btn-down-a {
-	border: 1px solid 		#ECF0F2 /*{a-bdown-border}*/;
-	background: 			#ECF0F2 /*{a-bdown-background-color}*/;
+	border: 1px solid 		#E6EAEB /*{a-bdown-border}*/;
+	background: 			#E6EAEB /*{a-bdown-background-color}*/;
 	font-weight: bold;
 	color: 					#222222 /*{a-bdown-color}*/;
 }
@@ -134,21 +132,18 @@
 .ui-bar-a .ui-btn-down-a,
 .ui-bar-a .ui-btn-hover-a {
 	background-color: #34495e;
+  border: 1px solid #34495e;
 }
 
 /* B
 -----------------------------------------------------------------------------------------------------------*/
 
+
 .ui-btn-up-b {
 	border: 1px solid 		#34495e /*{a-bup-border}*/;
 	background: 			#34495e /*{a-bup-background-color}*/;
 	font-weight: bold;
-	color: 					#fff /*{a-bup-color}*/;
-  -webkit-transition: 0.25s;
-  -moz-transition: 0.25s;
-  -o-transition: 0.25s;
-  transition: 0.25s;
-  -webkit-backface-visibility: hidden;
+	color: 					#FFFFFF /*{a-bup-color}*/;
 }
 .ui-btn-up-b:visited,
 .ui-btn-up-b a.ui-link-inherit {
@@ -158,27 +153,23 @@
 	border: 1px solid 		#4e6d8d /*{a-bhover-border}*/;
 	background: 			#4e6d8d /*{a-bhover-background-color}*/;
 	font-weight: bold;
-	color: 					#fff /*{a-bhover-color}*/;
-  -webkit-transition: 0.25s;
-  -moz-transition: 0.25s;
-  -o-transition: 0.25s;
-  transition: 0.25s;
+	color: 					#FFFFFF /*{a-bhover-color}*/;
 }
 .ui-btn-hover-b:visited,
 .ui-btn-hover-b:hover,
 .ui-btn-hover-b a.ui-link-inherit {
-	color: 					#fff /*{a-bhover-color}*/;
+	color: 					#FFFFFF /*{a-bhover-color}*/;
 }
 .ui-btn-down-b {
 	border: 1px solid 		#4e6d8d /*{a-bdown-border}*/;
 	background: 			#4e6d8d /*{a-bdown-background-color}*/;
 	font-weight: bold;
-	color: 					#fff /*{a-bdown-color}*/;
+	color: 					#FFFFFF /*{a-bdown-color}*/;
 }
 .ui-btn-down-b:visited,
 .ui-btn-down-b:hover,
 .ui-btn-down-b a.ui-link-inherit {
-	color: 					#fff /*{a-bdown-color}*/;
+	color: 					#FFFFFF /*{a-bdown-color}*/;
 }
 .ui-btn-up-b,
 .ui-btn-hover-b,
@@ -565,7 +556,7 @@ a.ui-link-inherit {
 .ui-icon-lightning , .ui-icon-drink , .ui-icon-android {
 	background-color: 						#666666 /*{global-icon-color}*/;
 	background-color: 						rgba(0,0,0,.4) /*{global-icon-disc}*/;
-	background-image: url(images/icons-18-white.png) /*{global-icon-set}*/;
+	background-image: url(../images/icons-18-white.png) /*{global-icon-set}*/;
 }
 
 /* Alt icon color
@@ -575,7 +566,7 @@ a.ui-link-inherit {
 .ui-icon-alt .ui-icon-searchfield:after {
 	background-color: 						#fff;
 	background-color: 						rgba(255,255,255,.3);
-	background-image: url(images/icons-18-black.png);
+	background-image: url(../images/icons-18-black.png);
 	background-repeat: no-repeat;
 }
 
@@ -687,7 +678,7 @@ a.ui-link-inherit {
 	.ui-icon-grid, .ui-icon-star, .ui-icon-alert, .ui-icon-info, .ui-icon-home, .ui-icon-bars, .ui-icon-edit,
 	.ui-icon-search, .ui-icon-searchfield:after,
 	.ui-icon-checkbox-off, .ui-icon-checkbox-on, .ui-icon-radio-off, .ui-icon-radio-on {
-		background-image: url(images/icons-36-white.png);
+		background-image: url(../images/icons-36-white.png);
 		-moz-background-size: 864px 18px;
 		-o-background-size: 864px 18px;
 		-webkit-background-size: 864px 18px;
@@ -695,7 +686,7 @@ a.ui-link-inherit {
 	}
 
 	.ui-icon-alt .ui-icon {
-		background-image: url(images/icons-36-black.png);
+		background-image: url(../images/icons-36-black.png);
 	}
 
 	.ui-icon-plus {
@@ -790,7 +781,7 @@ a.ui-link-inherit {
 
 /* loading icon */
 .ui-icon-loading {
-	background: url(images/ajax-loader.gif);
+	background: url(../images/ajax-loader.gif);
 	background-size: 46px 46px;
 }
 
@@ -899,5 +890,3 @@ a.ui-link-inherit {
 	outline-width: 1px;
 	outline-style: auto;
 }
-
-
