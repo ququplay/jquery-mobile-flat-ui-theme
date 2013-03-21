@@ -53,9 +53,9 @@
 }
 .ui-body-a,
 .ui-overlay-a {
-        border: 2px solid #DCE4EC;
-        color: #34495E;
-        background: #ffffff;
+	border: 2px solid #DCE4EC;
+	color: #34495E;
+	background: #ffffff;
 }
 .ui-overlay-a {
 	background-image: none;
@@ -177,9 +177,11 @@ a.ui-link-inherit {
 /* Form field separator
 -----------------------------------------------------------------------------------------------------------*/
 .ui-br {
+	/*
 	border-color: rgb(130,130,130);
 	border-color: rgba(130,130,130,.3);
 	border-style: solid;
+	*/
 }
 
 /* Interaction cues
