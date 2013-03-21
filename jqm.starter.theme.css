@@ -53,9 +53,9 @@
 }
 .ui-body-a,
 .ui-overlay-a {
-	border: 1px solid 		#aaaaaa /*{a-body-border}*/;
-	color: 					#333333 /*{a-body-color}*/;
-	background: 			#ffffff /*{a-body-background-color}*/;
+        border: 2px solid #DCE4EC;
+        color: #34495E;
+        background: #ffffff;
 }
 .ui-overlay-a {
 	background-image: none;
