@@ -91,7 +91,7 @@
 
 .ui-btn-up-a {
 	/*border: 1px solid 		#cccccc*/ /*{a-bup-border}*/;
-	background: 			#eeeeee /*{a-bup-background-color}*/;
+	background: 			#ECF0F1 /*{a-bup-background-color}*/;
 	font-weight: bold;
 	color: 					#222222 /*{a-bup-color}*/;
 }
@@ -101,7 +101,7 @@
 }
 .ui-btn-hover-a {
 	/*border: 1px solid 		#bbbbbb*/ /*{a-bhover-border}*/;
-	background: 			#dfdfdf /*{a-bhover-background-color}*/;
+	background: 			#ECF0F2 /*{a-bhover-background-color}*/;
 	font-weight: bold;
 	color: 					#222222 /*{a-bhover-color}*/;
 }
@@ -112,7 +112,7 @@
 }
 .ui-btn-down-a {
 	/*border: 1px solid 		#bbbbbb*/ /*{a-bdown-border}*/;
-	background: 			#d6d6d6 /*{a-bdown-background-color}*/;
+	background: 			#ECF0F2 /*{a-bdown-background-color}*/;
 	font-weight: bold;
 	color: 					#222222 /*{a-bdown-color}*/;
 }
@@ -128,7 +128,6 @@
 	text-decoration: none;
 }
 
-
 /* Structure */
 
 /* links within "buttons"
@@ -143,7 +142,7 @@ a.ui-link-inherit {
 -----------------------------------------------------------------------------------------------------------*/
 .ui-btn-active {
 	/*border: 1px solid 		#2373a5*/ /*{global-active-border}*/;
-	background: 			#5393c5 /*{global-active-background-color}*/;
+	background: 			#2C3E50 /*{global-active-background-color}*/;
 	font-weight: bold;
 	color: 					#ffffff /*{global-active-color}*/;
 	cursor: pointer;
@@ -427,7 +426,7 @@ a.ui-link-inherit {
 }
 .ui-checkbox-on .ui-icon,
 .ui-radio-on .ui-icon {
-	background-color: #4596ce /*{global-active-background-color}*/; /* NOTE: this hex should match the active state color. It's repeated here for cascade */
+	background-color: #2C3E50 /*{global-active-background-color}*/; /* NOTE: this hex should match the active state color. It's repeated here for cascade */
 }
 
 /* loading icon */
