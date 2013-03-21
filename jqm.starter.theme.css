@@ -488,6 +488,12 @@ a.ui-link-inherit {
   border: 0px solid #16a085;
 }
 
+.ui-slider-label.ui-btn-corner-all,
+.ui-slider-switch.ui-btn-corner-all {
+	border-radius: 1em;
+	-webkit-border-radius: 1em;
+}
+
 .ui-slider-handle.ui-btn-corner-all {
   border-radius: 50%;
   -webkit-border-radius: 50%;
