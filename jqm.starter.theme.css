@@ -91,6 +91,14 @@
 	color: #2489ce /*{a-body-link-active}*/;
 }
 
+.ui-body-a.ui-input-text.ui-focus {
+  border: 2px solid #1abc9c;
+  -webkit-transition: border linear 0.2s;
+  -moz-transition: border linear 0.2s;
+  -o-transition: border linear 0.2s;
+  transition: border linear 0.2s;
+}
+
 .ui-btn-up-a {
 	border: 1px solid 		#ECF0F1 /*{a-bup-border}*/;
 	background: 			#ECF0F1 /*{a-bup-background-color}*/;
@@ -102,8 +110,8 @@
 	color: 					#2f3e46 /*{a-bup-color}*/;
 }
 .ui-btn-hover-a {
-	border: 1px solid 		#ECF0F2 /*{a-bhover-border}*/;
-	background: 			#ECF0F2 /*{a-bhover-background-color}*/;
+	border: 1px solid 		#E6EAEB /*{a-bhover-border}*/;
+	background: 			#E6EAEB /*{a-bhover-background-color}*/;
 	font-weight: bold;
 	color: 					#222222 /*{a-bhover-color}*/;
 }
@@ -113,8 +121,8 @@
 	color: 					#2f3e46 /*{a-bhover-color}*/;
 }
 .ui-btn-down-a {
-	border: 1px solid 		#ECF0F2 /*{a-bdown-border}*/;
-	background: 			#ECF0F2 /*{a-bdown-background-color}*/;
+	border: 1px solid 		#E6EAEB /*{a-bdown-border}*/;
+	background: 			#E6EAEB /*{a-bdown-background-color}*/;
 	font-weight: bold;
 	color: 					#222222 /*{a-bdown-color}*/;
 }
@@ -134,6 +142,7 @@
 .ui-bar-a .ui-btn-down-a,
 .ui-bar-a .ui-btn-hover-a {
 	background-color: #34495e;
+  border: 1px solid #34495e;
 }
 
 /* B
