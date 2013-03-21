@@ -8,10 +8,6 @@
 *
 */
 
-/* Lato Font */
-
-@import url("http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic");
-
 /* Swatches */
 
 /* A
@@ -128,6 +124,11 @@
 	text-decoration: none;
 }
 
+.ui-bar-a .ui-btn-up-a,
+.ui-bar-a .ui-btn-down-a,
+.ui-bar-a .ui-btn-hover-a {
+	background-color: #34495e;
+}
 
 /* Structure */
 
@@ -202,12 +203,36 @@ a.ui-link-inherit {
 
 .ui-icon,
 .ui-icon-searchfield:after {
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 20px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	line-height: 16px;
+	color: white;
+}
+
+.ui-btn-icon-notext .ui-btn-inner .ui-icon:before { margin-left: -3px;}
+
+.ui-li-link-alt .ui-btn-inner .ui-icon {
+	margin: -10px -10px auto auto !important;
+}
+
+/* supporting original icons */
+.ui-icon-plus, .ui-icon-minus, .ui-icon-delete, .ui-icon-arrow-r,
+.ui-icon-arrow-l, .ui-icon-arrow-u, .ui-icon-arrow-d, .ui-icon-check,
+.ui-icon-gear, .ui-icon-refresh, .ui-icon-forward, .ui-icon-back,
+.ui-icon-grid, .ui-icon-star, .ui-icon-alert, .ui-icon-info, .ui-icon-home, .ui-icon-search, .ui-icon-searchfield:after,
+.ui-icon-checkbox-off, .ui-icon-checkbox-on, .ui-icon-radio-off, .ui-icon-radio-on, .ui-icon-email , .ui-icon-page,
+.ui-icon-question , .ui-icon-foursquare, .ui-icon-dollar , .ui-icon-euro,
+.ui-icon-pound , .ui-icon-apple , .ui-icon-chat , .ui-icon-trash , .ui-icon-mappin , .ui-icon-direction,
+.ui-icon-heart , .ui-icon-wrench , .ui-icon-play , .ui-icon-pause , .ui-icon-stop , .ui-icon-person , .ui-icon-music,
+.ui-icon-wifi , .ui-icon-phone , .ui-icon-power ,
+.ui-icon-lightning , .ui-icon-drink , .ui-icon-android {
 	background-color: 						#666666 /*{global-icon-color}*/;
 	background-color: 						rgba(0,0,0,.4) /*{global-icon-disc}*/;
 	background-image: url(images/icons-18-white.png) /*{global-icon-set}*/;
-	background-repeat: no-repeat;
-	-webkit-border-radius: 				9px;
-	border-radius: 						9px;
 }
 
 /* Alt icon color
