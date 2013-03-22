@@ -54,20 +54,34 @@
     </fieldset>
 
 		<ul data-role="listview" data-inset="true">
-            <li data-role="list-divider" data-swatch="a" data-theme="a" data-form="ui-bar-a">List Header</li>
-            <li data-form="ui-btn-up-a" data-swatch="a" data-theme="a">Read-only list item</li>
-            <li data-form="ui-btn-up-a"><a href="#">Linked list item</a></li>
+      <li data-role="list-divider" data-swatch="a" data-theme="a" data-form="ui-bar-a">List Header</li>
+      <li data-form="ui-btn-up-a" data-swatch="a" data-theme="a">Read-only list item</li>
+      <li data-form="ui-btn-up-a"><a href="#">Linked list item</a></li>
 		</ul>
 
+    <div data-role="collapsible-set" data-theme="c" data-content-theme="a">
+      <div data-role="collapsible" data-collapsed-icon="flat-time" data-expanded-icon="flat-cross" data-collapsed="false">
+        <h3>Section 1</h3>
+        <p>I'm the collapsible content for section 1</p>
+      </div>
+      <div data-role="collapsible" data-collapsed-icon="flat-calendar" data-expanded-icon="flat-cross">
+        <h3>Section 2</h3>
+        <p>I'm the collapsible content for section 2</p>
+      </div>
+      <div data-role="collapsible" data-collapsed-icon="flat-settings" data-expanded-icon="flat-cross">
+        <h3>Section 3</h3>
+        <p>I'm the collapsible content for section 3</p>
+      </div>
+    </div>
+
 		<div data-role="fieldcontain">
-		    <fieldset data-role="controlgroup">
-				<input type="radio" name="radio-choice-a" id="radio-choice-1-a" value="choice-1" checked="checked" />
-		        <label for="radio-choice-1-a" data-form="ui-btn-up-a">Radio</label>
+      <fieldset data-role="controlgroup">
+    		<input type="radio" name="radio-choice-a" id="radio-choice-1-a" value="choice-1" checked="checked" />
+        <label for="radio-choice-1-a" data-form="ui-btn-up-a">Radio</label>
 
-				<input type="checkbox" name="checkbox-a" id="checkbox-a" checked="checked" />
-				<label for="checkbox-a" data-form="ui-btn-up-a">Checkbox</label>
-
-		    </fieldset>
+    		<input type="checkbox" name="checkbox-a" id="checkbox-a" checked="checked" />
+    		<label for="checkbox-a" data-form="ui-btn-up-a">Checkbox</label>
+      </fieldset>
 		</div>
 
     <select name="flip-1" id="flip-1" data-role="slider">
