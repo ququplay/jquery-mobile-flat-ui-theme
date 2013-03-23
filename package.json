@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "grunt": "0.4.1",
-    "grunt-contrib-stylus": "0.3.1"
+    "grunt-contrib-stylus": "0.5.0"
   },
   "keywords": [],
   "engines": {
