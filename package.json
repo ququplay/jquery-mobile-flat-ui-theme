@@ -1,0 +1,20 @@
+{
+  "name": "jqm-flatui-theme",
+  "description": "jQuery Mobile Flat-UI Theme",
+  "version": "0.1.0",
+  "homepage": "",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "dependencies": {
+    "grunt": "0.4.1",
+    "grunt-contrib-stylus": "0.3.1"
+  },
+  "keywords": [],
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  }
+}
