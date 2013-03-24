@@ -95,14 +95,25 @@
 /* Alt icon color
 -----------------------------------------------------------------------------------------------------------*/
 
-.ui-icon-alt .ui-icon,
-.ui-icon-alt .ui-icon-searchfield:after {
+.ui-icon-alt .ui-icon-plus, .ui-icon-alt .ui-icon-minus, .ui-icon-alt .ui-icon-delete, .ui-icon-alt .ui-icon-arrow-r,
+.ui-icon-alt .ui-icon-arrow-l, .ui-icon-alt .ui-icon-arrow-u, .ui-icon-alt .ui-icon-arrow-d, .ui-icon-alt .ui-icon-check,
+.ui-icon-alt .ui-icon-gear, .ui-icon-alt .ui-icon-refresh, .ui-icon-alt .ui-icon-forward, .ui-icon-alt .ui-icon-back,
+.ui-icon-alt .ui-icon-grid, .ui-icon-alt .ui-icon-star, .ui-icon-alt .ui-icon-alert, .ui-icon-alt  .ui-icon-info, .ui-icon-alt  .ui-icon-home, .ui-icon-alt .ui-icon-search,
+.ui-icon-alt .ui-icon-checkbox-off, .ui-icon-alt .ui-icon-checkbox-on, .ui-icon-radio-off, .ui-icon-radio-on, .ui-icon-email , .ui-icon-page,
+.ui-icon-alt .ui-icon-question , .ui-icon-alt .ui-icon-foursquare, .ui-icon-alt .ui-icon-dollar , .ui-icon-alt .ui-icon-euro,
+.ui-icon-alt .ui-icon-pound , .ui-icon-alt .ui-icon-apple , .ui-icon-alt .ui-icon-chat , .ui-icon-alt .ui-icon-trash , .ui-icon-alt .ui-icon-mappin , .ui-icon-alt .ui-icon-direction,
+.ui-icon-alt .ui-icon-heart , .ui-icon-alt .ui-icon-wrench , .ui-icon-alt .ui-icon-play , .ui-icon-alt .ui-icon-pause , .ui-icon-alt .ui-icon-stop , .ui-icon-alt .ui-icon-person , .ui-icon-alt .ui-icon-music,
+.ui-icon-alt .ui-icon-wifi , .ui-icon-alt .ui-icon-phone , .ui-icon-alt .ui-icon-power ,
+.ui-icon-alt .ui-icon-lightning , .ui-icon-alt .ui-icon-drink , .ui-icon-alt .ui-icon-android  {
 	background-color: 						#fff;
 	background-color: 						rgba(255,255,255,.3);
 	background-image: url(../images/icons-18-black.png);
 	background-repeat: no-repeat;
 }
 
+ .ui-icon-alt *[class*="ui-icon-flat"] {
+   color: black;
+}
 /* No disc
 -----------------------------------------------------------------------------------------------------------*/
 
