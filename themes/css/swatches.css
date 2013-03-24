@@ -5,7 +5,7 @@
 .ui-bar-a a.ui-link:hover{color:#2489ce}
 .ui-bar-a a.ui-link:active{color:#2489ce}
 .ui-bar-a input,.ui-bar-a select,.ui-bar-a textarea,.ui-bar-a button{font-family:Lato,sans-serif}
-.ui-body-a,.ui-overlay-a{border:2px solid #2c3e50;color:#34495e;background:#fff;background-image:none;border-width:0}
+.ui-body-a,.ui-overlay-a{border:2px solid #2c3e50;color:#34495e;background:#fff;background-image:none}
 .ui-body-a{font-family:Lato,sans-serif;}
 .ui-body-a input,.ui-body-a select,.ui-body-a textarea,.ui-body-a button{font-family:Lato,sans-serif}
 .ui-body-a .ui-link-inherit{color:#333}
@@ -29,7 +29,7 @@
 .ui-bar-b a.ui-link:hover{color:#2489ce}
 .ui-bar-b a.ui-link:active{color:#2489ce}
 .ui-bar-b input,.ui-bar-b select,.ui-bar-b textarea,.ui-bar-b button{font-family:Lato,sans-serif}
-.ui-body-b,.ui-overlay-b{border:2px solid #16a085;color:#34495e;background:#fff;background-image:none;border-width:0}
+.ui-body-b,.ui-overlay-b{border:2px solid #16a085;color:#34495e;background:#fff;background-image:none}
 .ui-body-b{font-family:Lato,sans-serif;}
 .ui-body-b input,.ui-body-b select,.ui-body-b textarea,.ui-body-b button{font-family:Lato,sans-serif}
 .ui-body-b .ui-link-inherit{color:#333}
@@ -53,7 +53,7 @@
 .ui-bar-c a.ui-link:hover{color:#2489ce}
 .ui-bar-c a.ui-link:active{color:#2489ce}
 .ui-bar-c input,.ui-bar-c select,.ui-bar-c textarea,.ui-bar-c button{font-family:Lato,sans-serif}
-.ui-body-c,.ui-overlay-c{border:2px solid #f2f2f2;color:#34495e;background:#fff;background-image:none;border-width:0}
+.ui-body-c,.ui-overlay-c{border:2px solid #f2f2f2;color:#34495e;background:#fff;background-image:none}
 .ui-body-c{font-family:Lato,sans-serif;}
 .ui-body-c input,.ui-body-c select,.ui-body-c textarea,.ui-body-c button{font-family:Lato,sans-serif}
 .ui-body-c .ui-link-inherit{color:#333}
@@ -77,7 +77,7 @@
 .ui-bar-d a.ui-link:hover{color:#2489ce}
 .ui-bar-d a.ui-link:active{color:#2489ce}
 .ui-bar-d input,.ui-bar-d select,.ui-bar-d textarea,.ui-bar-d button{font-family:Lato,sans-serif}
-.ui-body-d,.ui-overlay-d{border:2px solid #c0392b;color:#34495e;background:#fff;background-image:none;border-width:0}
+.ui-body-d,.ui-overlay-d{border:2px solid #c0392b;color:#34495e;background:#fff;background-image:none}
 .ui-body-d{font-family:Lato,sans-serif;}
 .ui-body-d input,.ui-body-d select,.ui-body-d textarea,.ui-body-d button{font-family:Lato,sans-serif}
 .ui-body-d .ui-link-inherit{color:#333}
@@ -101,7 +101,7 @@
 .ui-bar-e a.ui-link:hover{color:#2489ce}
 .ui-bar-e a.ui-link:active{color:#2489ce}
 .ui-bar-e input,.ui-bar-e select,.ui-bar-e textarea,.ui-bar-e button{font-family:Lato,sans-serif}
-.ui-body-e,.ui-overlay-e{border:2px solid #f1c40f;color:#34495e;background:#fff;background-image:none;border-width:0}
+.ui-body-e,.ui-overlay-e{border:2px solid #f1c40f;color:#34495e;background:#fff;background-image:none}
 .ui-body-e{font-family:Lato,sans-serif;}
 .ui-body-e input,.ui-body-e select,.ui-body-e textarea,.ui-body-e button{font-family:Lato,sans-serif}
 .ui-body-e .ui-link-inherit{color:#333}
@@ -125,7 +125,7 @@
 .ui-bar-f a.ui-link:hover{color:#2489ce}
 .ui-bar-f a.ui-link:active{color:#2489ce}
 .ui-bar-f input,.ui-bar-f select,.ui-bar-f textarea,.ui-bar-f button{font-family:Lato,sans-serif}
-.ui-body-f,.ui-overlay-f{border:2px solid #3498db;color:#34495e;background:#fff;background-image:none;border-width:0}
+.ui-body-f,.ui-overlay-f{border:2px solid #3498db;color:#34495e;background:#fff;background-image:none}
 .ui-body-f{font-family:Lato,sans-serif;}
 .ui-body-f input,.ui-body-f select,.ui-body-f textarea,.ui-body-f button{font-family:Lato,sans-serif}
 .ui-body-f .ui-link-inherit{color:#333}
@@ -149,7 +149,7 @@
 .ui-bar-g a.ui-link:hover{color:#2489ce}
 .ui-bar-g a.ui-link:active{color:#2489ce}
 .ui-bar-g input,.ui-bar-g select,.ui-bar-g textarea,.ui-bar-g button{font-family:Lato,sans-serif}
-.ui-body-g,.ui-overlay-g{border:2px solid #2ecc71;color:#34495e;background:#fff;background-image:none;border-width:0}
+.ui-body-g,.ui-overlay-g{border:2px solid #2ecc71;color:#34495e;background:#fff;background-image:none}
 .ui-body-g{font-family:Lato,sans-serif;}
 .ui-body-g input,.ui-body-g select,.ui-body-g textarea,.ui-body-g button{font-family:Lato,sans-serif}
 .ui-body-g .ui-link-inherit{color:#333}
@@ -173,7 +173,7 @@
 .ui-bar-h a.ui-link:hover{color:#2489ce}
 .ui-bar-h a.ui-link:active{color:#2489ce}
 .ui-bar-h input,.ui-bar-h select,.ui-bar-h textarea,.ui-bar-h button{font-family:Lato,sans-serif}
-.ui-body-h,.ui-overlay-h{border:2px solid #16a085;color:#34495e;background:#fff;background-image:none;border-width:0}
+.ui-body-h,.ui-overlay-h{border:2px solid #16a085;color:#34495e;background:#fff;background-image:none}
 .ui-body-h{font-family:Lato,sans-serif;}
 .ui-body-h input,.ui-body-h select,.ui-body-h textarea,.ui-body-h button{font-family:Lato,sans-serif}
 .ui-body-h .ui-link-inherit{color:#333}
