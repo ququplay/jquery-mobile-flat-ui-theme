@@ -342,28 +342,6 @@ a.ui-link-inherit {
 	text-decoration: none;
 }
 
-/* Active class used as the "on" state across all themes
------------------------------------------------------------------------------------------------------------*/
-.ui-btn-active {
-	/*border: 1px solid 		#2373a5*/ /*{global-active-border}*/;
-	background: 			#2C3E50 /*{global-active-background-color}*/;
-	font-weight: bold;
-	color: 					#ffffff /*{global-active-color}*/;
-	cursor: pointer;
-	text-decoration: none;
-	font-family: Helvetica, Arial, sans-serif /*{global-font-family}*/;
-}
-.ui-btn-active:visited,
-.ui-btn-active:hover,
-.ui-btn-active a.ui-link-inherit {
-	color: 					#ffffff /*{global-active-color}*/;
-}
-
-.ui-btn-active.ui-slider-bg {
-  background: #1abc9c;
-}
-
-
 /* F
 -----------------------------------------------------------------------------------------------------------*/
 

@@ -1,10 +1,32 @@
+/* Active class used as the "on" state across all themes
+-----------------------------------------------------------------------------------------------------------*/
+.ui-btn-active {
+	border: 1px solid 		#2C3E50 /*{global-active-border}*/;
+	background: 			#2C3E50 /*{global-active-background-color}*/;
+	font-weight: bold;
+	color: 					#ffffff /*{global-active-color}*/;
+	cursor: pointer;
+	text-decoration: none;
+  font-family: Lato, sans-serif
+}
+.ui-btn-active:visited,
+.ui-btn-active:hover,
+.ui-btn-active a.ui-link-inherit {
+  color:  #ffffff /*{global-active-color}*/;
+}
+
+.ui-btn-active.ui-slider-bg {
+  background: #1abc9c;
+}
 
 /* button inner top highlight
 -----------------------------------------------------------------------------------------------------------*/
 
 .ui-slider-handle {
-  background:  #16a085;
-  border: 1px solid #16a085;
+  /*
+  background:  #ff0000;
+  border: 1px solid #ff0000;
+  */
 }
 
 .ui-slider-label.ui-btn-corner-all,
