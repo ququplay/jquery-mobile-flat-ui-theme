@@ -4,7 +4,7 @@ module.exports = function (grunt) {
     stylus: {
       compile: {
         files: {
-          'themes/css/test.css': ['themes/stylus/swatches/*.styl']
+          'themes/css/swatches.css': ['themes/stylus/swatches/*.styl']
         }
       }
     }

@@ -479,6 +479,12 @@ a.ui-link-inherit {
   border: 1px solid #16a085;
 }
 
+.ui-btn-up-e.ui-slider-handle {
+  background:  #ff0000;
+  border: 1px solid #ff0000;
+
+}
+
 .ui-slider-label.ui-btn-corner-all,
 .ui-slider-switch.ui-btn-corner-all {
 	border-radius: 1em;
