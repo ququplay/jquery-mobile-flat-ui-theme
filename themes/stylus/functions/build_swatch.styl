@@ -48,13 +48,14 @@ build_swatch(swatch)
       &:hover
       &:active
         color: highlight_color
-
-    &.ui-input-text.ui-focus
-      border: 2px solid primary_color
-      -webkit-transition: border linear 0.2s
-      -moz-transition: border linear 0.2s
-      -o-transition: border linear 0.2s
-      transition: border linear 0.2s
+    &.ui-input-text
+      border: 2px solid #eee
+      &.ui-focus
+        border: 2px solid highlight_color
+        -webkit-transition: border linear 0.2s
+        -moz-transition: border linear 0.2s
+        -o-transition: border linear 0.2s
+        transition: border linear 0.2s
 
   .ui-btn-up-{swatch}
     border: 1px solid primary_color
