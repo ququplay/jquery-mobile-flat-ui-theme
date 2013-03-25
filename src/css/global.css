@@ -109,7 +109,7 @@ input.ui-input-text.ui-slider-input {
 .ui-icon-lightning , .ui-icon-drink , .ui-icon-android {
 	background-color: 						#666666 /*{global-icon-color}*/;
 	background-color: 						rgba(0,0,0,.4) /*{global-icon-disc}*/;
-	background-image: url(../images/icons-18-white.png) /*{global-icon-set}*/;
+	background-image: url(images/icons-18-white.png) /*{global-icon-set}*/;
 }
 
 /* Alt icon color
@@ -119,7 +119,7 @@ input.ui-input-text.ui-slider-input {
 .ui-icon-alt .ui-icon-searchfield:after {
 	background-color: 						#fff;
 	background-color: 						rgba(255,255,255,.3);
-	background-image: url(../images/icons-18-black.png);
+	background-image: url(images/icons-18-black.png);
 	background-repeat: no-repeat;
 }
 
@@ -231,7 +231,7 @@ input.ui-input-text.ui-slider-input {
 	.ui-icon-grid, .ui-icon-star, .ui-icon-alert, .ui-icon-info, .ui-icon-home, .ui-icon-bars, .ui-icon-edit,
 	.ui-icon-search, .ui-icon-searchfield:after,
 	.ui-icon-checkbox-off, .ui-icon-checkbox-on, .ui-icon-radio-off, .ui-icon-radio-on {
-		background-image: url(../images/icons-36-white.png);
+		background-image: url(images/icons-36-white.png);
 		-moz-background-size: 864px 18px;
 		-o-background-size: 864px 18px;
 		-webkit-background-size: 864px 18px;
@@ -239,7 +239,7 @@ input.ui-input-text.ui-slider-input {
 	}
 
 	.ui-icon-alt .ui-icon {
-		background-image: url(../images/icons-36-black.png);
+		background-image: url(images/icons-36-black.png);
 	}
 
 	.ui-icon-plus {
@@ -333,7 +333,7 @@ input.ui-input-text.ui-slider-input {
 
 /* loading icon */
 .ui-icon-loading {
-	background: url(../images/ajax-loader.gif);
+	background: url(images/ajax-loader.gif);
 	background-size: 46px 46px;
 }
 

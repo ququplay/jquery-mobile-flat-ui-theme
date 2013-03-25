@@ -1,11 +1,30 @@
-/* Lato Font */
-
-@import url("http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic");
-
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(fonts/lato-regular.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(fonts/lato-bold.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Lato Black'), local('Lato-Black'), url(fonts/lato-black.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(fonts/lato-italic.woff) format('woff');
+}
 @font-face {
   font-family: "Flat-UI-Icons-24";
-  src: url("../fonts/Flat-UI-Icons-24.eot");
-  src: url("../fonts/Flat-UI-Icons-24.eot?#iefix") format("embedded-opentype"), url("../fonts/Flat-UI-Icons-24.woff") format("woff"), url("../fonts/Flat-UI-Icons-24.ttf") format("truetype"), url("../fonts/Flat-UI-Icons-24.svg#Flat-UI-Icons-24") format("svg");
+  src: url("fonts/Flat-UI-Icons-24.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }

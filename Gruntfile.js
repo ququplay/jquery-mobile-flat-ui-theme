@@ -1,16 +1,40 @@
 module.exports = function (grunt) {
 
   grunt.initConfig({
+    concat: {
+      css: {
+        src: ['src/css/fonts.css', 'src/css/swatches.css', 'src/css/global.css', 'src/css/jqm.structure.css'],
+        dest: 'generated/jquery.mobile.flatui.css'
+      }
+    },
     stylus: {
       compile: {
         files: {
-          'themes/css/swatches.css': ['themes/stylus/swatches/*.styl']
+          'src/css/swatches.css': ['src/stylus/swatches/*.styl']
+        }
+      }
+    },
+    copy: {
+      main: {
+        files: [
+          { src: 'generated/jquery.mobile.flatui.css', dest: 'demo/css/jquery.mobile.flatui.css' },
+          { expand: true, src: ['images/**'], cwd: 'src/css/', dest: 'demo/css/' },
+          { expand: true, src: ['images/**'], cwd: 'src/css/', dest: 'generated/' },
+          { expand: true, src: ['fonts/**'], cwd: 'src/css/', dest: 'demo/css/' },
+          { expand: true, src: ['fonts/**'], cwd: 'src/css/', dest: 'generated/' }
+        ]
+      }
+    },
+    cssmin: {
+      compress: {
+        files: {
+          'generated/jquery.mobile.flatui.min.css': 'generated/jquery.mobile.flatui.css'
         }
       }
     },
     watch: {
       stylus: {
-        files: ['themes/stylus/**/*.styl'],
+        files: ['src/stylus/**/*.styl'],
         tasks: ['stylus']
       }
     }
@@ -18,5 +42,9 @@ module.exports = function (grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-stylus');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.registerTask('default', ['watch']);
+  grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
+
+  grunt.registerTask('default', ['concat', 'copy', 'cssmin']);
 };
