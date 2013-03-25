@@ -40,6 +40,9 @@
   -webkit-border-radius: 50%;
 }
 
+input.ui-input-text.ui-slider-input {
+	border: 2px solid #eee !important;
+}
 
 /* corner rounding classes
 -----------------------------------------------------------------------------------------------------------*/
