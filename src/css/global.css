@@ -1,8 +1,8 @@
 /* Active class used as the "on" state across all themes
 -----------------------------------------------------------------------------------------------------------*/
 .ui-btn-active {
-	border: 1px solid 		#2C3E50 /*{global-active-border}*/;
-	background: 			#2C3E50 /*{global-active-background-color}*/;
+	border: 1px solid 		#1abc9c /*{global-active-border}*/;
+	background: 			#1abc9c /*{global-active-background-color}*/;
 	font-weight: bold;
 	color: 					#ffffff /*{global-active-color}*/;
 	cursor: pointer;
@@ -23,10 +23,8 @@
 -----------------------------------------------------------------------------------------------------------*/
 
 .ui-slider-handle {
-  /*
-  background:  #ff0000;
-  border: 1px solid #ff0000;
-  */
+  background:  #16a085;
+  border: 1px solid #16a085;
 }
 
 .ui-slider-label.ui-btn-corner-all,

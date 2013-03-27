@@ -36,6 +36,10 @@ module.exports = function (grunt) {
       stylus: {
         files: ['src/stylus/**/*.styl'],
         tasks: ['stylus', 'concat', 'copy', 'cssmin']
+      },
+      css: {
+        files: ['src/css/global.css'],
+        tasks: ['concat', 'copy', 'cssmin']
       }
     }
   });
@@ -46,5 +50,5 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
 
-  grunt.registerTask('default', ['concat', 'copy', 'cssmin']);
+  grunt.registerTask('default', ['stylus', 'concat', 'copy', 'cssmin']);
 };

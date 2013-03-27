@@ -11,4 +11,10 @@ Include link to `jquery.mobile.flatui.css`
  <link rel="stylesheet" type="text/css" href="jquery.mobile.flatui.css" />
 ```
 
-![jQuery-Mobile-Flat-UI-Theme](http://oi49.tinypic.com/w82peh.jpg)
+![jQuery-Mobile-Flat-UI-Theme](http://oi46.tinypic.com/212i9dz.jpg)
+
+
+##License:
+<pre>
+The MIT License
+</pre>
