@@ -2,6 +2,10 @@
 
 Theme for jQuery Mobile based [Flat-UI](http://designmodo.com/demo/flat-ui/).
 
+## Demo
+
+[http://ququplay.github.com/jquery-mobile-flat-ui-theme](http://ququplay.github.com/jquery-mobile-flat-ui-theme)
+
 ## Usage
 
 Copy `jquery.mobile.flatui.css`, fonts and images from `generated` folder to your project.
