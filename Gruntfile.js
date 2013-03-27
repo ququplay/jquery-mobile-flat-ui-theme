@@ -35,7 +35,7 @@ module.exports = function (grunt) {
     watch: {
       stylus: {
         files: ['src/stylus/**/*.styl'],
-        tasks: ['stylus']
+        tasks: ['stylus', 'concat', 'copy', 'cssmin']
       }
     }
   });
