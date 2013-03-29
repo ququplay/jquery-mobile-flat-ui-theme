@@ -1,6 +1,6 @@
 ## jQuery Mobile Flat-UI Theme
 
-Theme for jQuery Mobile based [Flat-UI](http://designmodo.com/demo/flat-ui/).
+Theme for jQuery Mobile based on [Flat-UI](http://designmodo.com/demo/flat-ui/).
 
 ## Demo
 
