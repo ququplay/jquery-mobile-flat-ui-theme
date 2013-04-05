@@ -50,5 +50,5 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
 
-  grunt.registerTask('default', ['stylus', 'concat', 'copy', 'cssmin']);
+  grunt.registerTask('default', ['concat', 'copy', 'cssmin']);
 };
