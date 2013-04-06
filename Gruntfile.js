@@ -38,7 +38,7 @@ module.exports = function (grunt) {
         tasks: ['stylus', 'concat', 'copy', 'cssmin']
       },
       css: {
-        files: ['src/css/global.css'],
+        files: ['src/css/global.css', 'src/css/fonts.css', 'src/css/jqm.structure.css'],
         tasks: ['concat', 'copy', 'cssmin']
       }
     }
@@ -50,5 +50,5 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
 
-  grunt.registerTask('default', ['concat', 'copy', 'cssmin']);
+  grunt.registerTask('default', ['stylus', 'concat', 'copy', 'cssmin']);
 };
