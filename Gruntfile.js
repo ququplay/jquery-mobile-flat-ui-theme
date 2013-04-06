@@ -3,7 +3,10 @@ module.exports = function (grunt) {
   grunt.initConfig({
     concat: {
       css: {
-        src: ['src/css/fonts.css', 'src/css/swatches.css', 'src/css/global.css', 'src/css/jqm.structure.css'],
+        src: ['src/css/fonts.css',
+              'src/css/swatches.css',
+              'src/css/global.css',
+              'src/css/jqm.structure.css'],
         dest: 'generated/jquery.mobile.flatui.css'
       }
     },
