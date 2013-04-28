@@ -2,31 +2,44 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(fonts/lato-regular.woff) format('woff');
+  src: local('Lato Regular'),
+    local('Lato-Regular'),
+    url(fonts/lato-regular.woff) format('woff'),
+    url(fonts/lato-regular.ttf) format('truetype'),
 }
 @font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(fonts/lato-bold.woff) format('woff');
+  src: local('Lato Bold'),
+    local('Lato-Bold'),
+    url(fonts/lato-bold.woff) format('woff'),
+    url(fonts/lato-bold.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 900;
-  src: local('Lato Black'), local('Lato-Black'), url(fonts/lato-black.woff) format('woff');
+  src: local('Lato Black'),
+    local('Lato-Black'),
+    url(fonts/lato-black.woff) format('woff'),
+    url(fonts/lato-black.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Lato';
   font-style: italic;
   font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(fonts/lato-italic.woff) format('woff');
+  src: local('Lato Italic'),
+    local('Lato-Italic'),
+    url(fonts/lato-italic.woff) format('woff'),
+    url(fonts/lato-italic.ttf) format('truetype');
 }
 @font-face {
   font-family: "Flat-UI-Icons-24";
-  src: url("fonts/Flat-UI-Icons-24.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  src: url("fonts/Flat-UI-Icons-24.woff") format("woff"),
+    url(fonts//Flat-UI-Icons-24..ttf) format('truetype');
 }
 
 /* Use the following CSS code if you want to have a class per icon */
