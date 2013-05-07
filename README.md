@@ -20,7 +20,7 @@ Include link to `jquery.mobile.flatui.css`
 
 ## Adding new swatches / colors
 
-In order to add new swatch or colors you can add new stylus file under `src/stylus/swatches/` and run [grunt](http://gruntjs.com/) from your command line.
+In order to add a new swatch or colors you can add a new stylus file under `src/stylus/swatches/` and run [grunt](http://gruntjs.com/) from your command line.
 
 ## Notes
 
