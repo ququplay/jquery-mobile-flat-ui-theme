@@ -32,6 +32,6 @@ The current work is based on jQuery Mobile v1.3. This is still a work in progres
 * [@mkuklis](http://github.com/mkuklis)
 
 ##License:
-<pre>
+
 [The WTFPL License](http://en.wikipedia.org/wiki/WTFPL)
-</pre>
+
