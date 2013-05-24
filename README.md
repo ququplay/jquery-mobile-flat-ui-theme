@@ -2,6 +2,8 @@
 
 Theme for jQuery Mobile based on [Flat-UI](http://designmodo.com/demo/flat-ui/).
 
+![jQuery-Mobile-Flat-UI-Theme](http://oi46.tinypic.com/xm2xlc.jpg)
+
 ## Demo
 
 [http://ququplay.github.com/jquery-mobile-flat-ui-theme](http://ququplay.github.com/jquery-mobile-flat-ui-theme)
@@ -23,9 +25,6 @@ Include link to `jquery.mobile.flatui.css`
 ```html
  <link rel="stylesheet" type="text/css" href="jquery.mobile.flatui.css" />
 ```
-
-![jQuery-Mobile-Flat-UI-Theme](http://oi46.tinypic.com/xm2xlc.jpg)
-
 
 ## Setup
 
