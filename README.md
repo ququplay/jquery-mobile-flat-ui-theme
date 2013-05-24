@@ -18,9 +18,16 @@ Include link to `jquery.mobile.flatui.css`
 ![jQuery-Mobile-Flat-UI-Theme](http://oi46.tinypic.com/xm2xlc.jpg)
 
 
-## Adding new swatches / colors
+## Setup
 
 In order to add a new swatch or colors you can add a new stylus file under `src/stylus/swatches/` and run [grunt](http://gruntjs.com/) from your command line.
+
+- brew install node
+- npm install -g grunt-cli
+- cd to project's folder
+- npm install
+- grunt watch 
+- start modifying css/stylus files
 
 ## Notes
 
