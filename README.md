@@ -6,6 +6,15 @@ Theme for jQuery Mobile based on [Flat-UI](http://designmodo.com/demo/flat-ui/).
 
 [http://ququplay.github.com/jquery-mobile-flat-ui-theme](http://ququplay.github.com/jquery-mobile-flat-ui-theme)
 
+## Versions
+
+We are going to use master branch to keep up to date with jQuery Mobile versions. Previous versions will be moved to corresponding branches.
+
+### Current branch layout
+
+- master - jQuery Mobile version 1.3.1
+- jqm-1.3.0 - jQuery Mobile version 1.3.0
+
 ## Usage
 
 Copy `jquery.mobile.flatui.css`, fonts and images from `generated` folder to your project.
@@ -26,7 +35,7 @@ In order to add a new swatch or colors you can add a new stylus file under `src/
 - npm install -g grunt-cli
 - cd to project's folder
 - npm install
-- grunt watch 
+- grunt watch
 - start modifying css/stylus files
 
 ## Notes

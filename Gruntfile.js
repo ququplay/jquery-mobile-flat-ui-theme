@@ -7,6 +7,7 @@ module.exports = function (grunt) {
               'src/css/swatches.css',
               'src/css/global.css',
               'src/css/jqm.structure.css'],
+
         dest: 'generated/jquery.mobile.flatui.css'
       }
     },
@@ -41,7 +42,11 @@ module.exports = function (grunt) {
         tasks: ['stylus', 'concat', 'copy', 'cssmin']
       },
       css: {
-        files: ['src/css/global.css', 'src/css/fonts.css', 'src/css/jqm.structure.css'],
+        files: [
+          'src/css/global.css',
+          'src/css/fonts.css',
+          'src/css/jqm.structure.css'
+        ],
         tasks: ['concat', 'copy', 'cssmin']
       }
     }
