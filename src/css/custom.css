@@ -1,0 +1,2 @@
+/* customizations to jqm.structure.css */
+.ui-collapsible-inset .ui-collapsible-content { margin: 0; border-right-width: 2px; border-left-width: 2px; }

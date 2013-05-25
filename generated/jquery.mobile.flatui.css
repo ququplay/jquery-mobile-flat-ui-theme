@@ -141,7 +141,7 @@
 .ui-bar-a a.ui-link:hover{color:#2489ce}
 .ui-bar-a a.ui-link:active{color:#2489ce}
 .ui-bar-a input,.ui-bar-a select,.ui-bar-a textarea,.ui-bar-a button{font-family:Lato,sans-serif}
-.ui-body-a,.ui-overlay-a{border:2px solid #2c3e50;color:#34495e;background:#fff;background-image:none}
+.ui-body-a,.ui-overlay-a{border:2px solid #2c3e50;color:#34495e;background:#2c3e50;background-image:none}
 .ui-body-a{font-family:Lato,sans-serif;}
 .ui-body-a input,.ui-body-a select,.ui-body-a textarea,.ui-body-a button{font-family:Lato,sans-serif}
 .ui-body-a .ui-link-inherit{color:#333}
@@ -3006,3 +3006,6 @@ div.ui-slider-switch.ui-mini {
 		display: none;
 	}
 }
+
+/* customizations to jqm.structure.css */
+.ui-collapsible-inset .ui-collapsible-content { margin: 0; border-right-width: 2px; border-left-width: 2px; }
