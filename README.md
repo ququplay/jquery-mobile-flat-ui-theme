@@ -37,10 +37,6 @@ In order to add a new swatch or colors you can add a new stylus file under `src/
 - grunt watch
 - start modifying css/stylus files
 
-## Notes
-
-The current work is based on jQuery Mobile v1.3. This is still a work in progress. Please don't be afraid to report any issues you will find.
-
 ## Contributors
 
 * [@tomkuk](http://github.com/tomkuk)
