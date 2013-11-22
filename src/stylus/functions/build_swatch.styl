@@ -97,11 +97,7 @@ build_swatch(swatch)
     .ui-body-{swatch} .ui-btn.ui-btn-active,
     body .ui-group-theme-{swatch} .ui-btn.ui-btn-active,
     body .ui-btn.ui-btn-{swatch}.ui-btn-active,
-    .ui-page-theme-{swatch} .ui-checkbox-on:after,
-    .ui-bar-{swatch} .ui-checkbox-on:after,
-    .ui-body-{swatch} .ui-checkbox-on:after,
-    body .ui-group-theme-{swatch} .ui-checkbox-on:after,
-    .ui-btn.ui-checkbox-on.ui-btn-{swatch}:after,
+
     .ui-page-theme-{swatch} .ui-flipswitch-active,
     .ui-bar-{swatch} .ui-flipswitch-active,
     .ui-body-{swatch} .ui-flipswitch-active,
@@ -116,24 +112,19 @@ build_swatch(swatch)
       border-color: highlight_color
       color: font_color
 
+    .ui-page-theme-{swatch} .ui-checkbox-on:after,
+    .ui-bar-{swatch} .ui-checkbox-on:after,
+    .ui-body-{swatch} .ui-checkbox-on:after,
+    body .ui-group-theme-{swatch} .ui-checkbox-on:after,
+    .ui-btn.ui-checkbox-on.ui-btn-{swatch}:after,
+      background-color: primary_color
+      border-color: primary_color
+      color: font_color
+
     .ui-page-theme-{swatch} .ui-radio-on:after,
     .ui-bar-{swatch} .ui-radio-on:after,
     .ui-body-{swatch} .ui-radio-on:after,
     body .ui-group-theme-{swatch} .ui-radio-on:after,
     .ui-btn.ui-radio-on.ui-btn-{swatch}:after
-      border-color: highlight_color
-
-    .ui-page-theme-{swatch} .ui-btn:focus,
-    .ui-bar-{swatch} .ui-btn:focus,
-    .ui-body-{swatch} .ui-btn:focus,
-    body .ui-group-theme-{swatch} .ui-btn:focus,
-    body .ui-btn.ui-btn-{swatch}:focus, 
-    .ui-page-theme-{swatch} .ui-focus,
-    .ui-bar-{swatch} .ui-focus,
-    .ui-body-{swatch} .ui-focus,
-    body .ui-group-theme-{swatch} .ui-focus,
-    body .ui-btn-{swatch}.ui-focus,
-    body .ui-body-{swatch}.ui-focus 
-      -webkit-box-shadow: 0 0 12px highlight_color
-      -moz-box-shadow: 0 0 12px highlight_color
-      box-shadow: 0 0 12px highlight_color
+      background-color: primary_color
+      color: font_color

@@ -239,3 +239,12 @@ button[disabled],
 	outline-width: 1px;
 	outline-style: auto;
 }
+
+.ui-slider, .ui-slider-track {
+	border: 0px;
+}
+
+.ui-slider-handle {
+	-webkit-border-radius: 14px;
+	border-radius: 14px;
+}
