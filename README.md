@@ -13,8 +13,8 @@ Theme for jQuery Mobile based on [Flat-UI](http://designmodo.com/demo/flat-ui/).
 We are going to use master branch to keep up to date with jQuery Mobile versions. Previous versions will be moved to corresponding branches.
 
 ### Current branch layout
-
-- master - jQuery Mobile version 1.3.1
+- master - jQuery Mobile version 1.4 - currently in progress not production ready yet
+- jqm-1.3.1 - jQuery Mobile version 1.3.1
 - jqm-1.3.0 - jQuery Mobile version 1.3.0
 
 ## Usage
