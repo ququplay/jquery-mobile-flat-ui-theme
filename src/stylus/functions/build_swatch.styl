@@ -1,102 +1,139 @@
 build_swatch(swatch)
-
-  .ui-bar-{swatch}
-    border: 1px solid primary_color
-    background: primary_color
-    color:  font_color
-    font-weight: bold
-    font-family: Lato, sans-serif
-    .ui-link-inherit
-      color:  #3e3e3e
-    a
-      &.ui-link
-        color: #7cc4e7
-        font-weight: bold
-        &:visited
-          color: #2489ce
-        &:hover
-          color: #2489ce
-        &:active
-          color: #2489ce
-    input
-    select
-    textarea
-    button
-      font-family: Lato, sans-serif
-
-  .ui-body-{swatch}
-  .ui-overlay-{swatch}
-    border: 2px solid primary_color
-    color: #34495E
-    background: background_color
-    background-image: none
-
-  .ui-body-{swatch}
-    font-family: Lato, sans-serif
-    input
-    select
-    textarea
-    button
-      font-family: Lato, sans-serif
-    .ui-link-inherit
-      color: 	#333333
-    .ui-link
-      color: link_color
+  html
+    .ui-bar-{swatch},
+    .ui-page-theme-{swatch} .ui-bar-inherit,
+    .ui-bar-{swatch} .ui-bar-inherit,
+    .ui-body-{swatch} .ui-bar-inherit,
+    body .ui-group-theme-{swatch} .ui-bar-inherit
+      background: primary_color
+      border-color: primary_color
+      color: font_color
       font-weight: bold
-      &:visited
-      &:hover
-      &:active
+
+    .ui-bar-{swatch}
+      border-width: 1px
+      border-style: solid
+    
+    .ui-overlay-{swatch},
+    .ui-page-theme-{swatch},
+    .ui-page-theme-{swatch} .ui-panel-wrapper
+      background: #f9f9f9
+      border-color: #bbb
+      color: #333
+
+    .ui-body-{swatch},
+    .ui-page-theme-{swatch} .ui-body-inherit,
+    .ui-bar-{swatch} .ui-body-inherit,
+    .ui-body-{swatch} .ui-body-inherit,
+    body .ui-group-theme-{swatch} .ui-body-inherit,
+    .ui-panel-page-container-{swatch}
+      background: font_color
+      border-color: #ddd
+      color: #333
+
+    .ui-body-{swatch}
+      border-width: 1px
+      border-style: solid
+
+    .ui-page-theme-{swatch} a,
+    .ui-bar-{swatch} a,
+    .ui-body-{swatch} a,
+    body .ui-group-theme-{swatch} a 
+      color: highlight_color
+      font-weight: bold
+
+    .ui-page-theme-{swatch} a:visited,
+    .ui-bar-{swatch} a:visited,
+    .ui-body-{swatch} a:visited,
+    body .ui-group-theme-{swatch} a:visited
         color: highlight_color
-    &.ui-input-text
-      border: 2px solid #eee
-      &.ui-focus
-        border: 2px solid highlight_color
-        -webkit-transition: border linear 0.2s
-        -moz-transition: border linear 0.2s
-        -o-transition: border linear 0.2s
-        transition: border linear 0.2s
+    
+    .ui-page-theme-{swatch} a:hover,
+    .ui-bar-{swatch} a:hover,
+    .ui-body-{swatch} a:hover,
+    body .ui-group-theme-{swatch} a:hover
+      color: highlight_color
 
-  .ui-btn-up-{swatch}
-    border: 1px solid primary_color
-    background: primary_color
-    font-weight: bold
-    color:  font_color
+    .ui-page-theme-{swatch} a:active,
+    .ui-bar-{swatch} a:active,
+    .ui-body-{swatch} a:active,
+    body .ui-group-theme-{swatch} a:active
+      color: highlight_color
 
-    &:visited
-    a.ui-link-inherit
-      color:  font_color
+    .ui-page-theme-{swatch} .ui-btn,
+    .ui-bar-{swatch} .ui-btn,
+    .ui-body-{swatch} .ui-btn,
+    body .ui-group-theme-{swatch} .ui-btn,
+    body .ui-btn.ui-btn-{swatch},
+    .ui-page-theme-{swatch} .ui-btn:visited,
+    .ui-bar-{swatch} .ui-btn:visited,
+    .ui-body-{swatch} .ui-btn:visited,
+    body .ui-group-theme-{swatch} .ui-btn:visited,
+    body .ui-btn.ui-btn-{swatch}:visited
+      background: primary_color
+      border-color: primary_color
+      color: font_color
 
-  .ui-btn-hover-{swatch}
-    border: 1px solid highlight_color
-    background: highlight_color
-    font-weight: bold
-    color:  font_color
+    .ui-page-theme-{swatch} .ui-btn:hover,
+    .ui-bar-{swatch} .ui-btn:hover,
+    .ui-body-{swatch} .ui-btn:hover,
+    body .ui-group-theme-{swatch} .ui-btn:hover,
+    body .ui-btn.ui-btn-{swatch}:hover
+      background: highlight_color
+      border-color: highlight_color
+      color: font_color
 
-    &:visited
-    &:hover
-    a.ui-link-inherit
-      color:  font_color
+    .ui-page-theme-{swatch} .ui-btn:active,
+    .ui-bar-{swatch} .ui-btn:active,
+    .ui-body-{swatch} .ui-btn:active,
+    body .ui-group-theme-{swatch} .ui-btn:active,
+    body .ui-btn.ui-btn-{swatch}:active
+      background: highlight_color
+      border-color: highlight_color
+      color: #333
+    
+    .ui-page-theme-{swatch} .ui-btn.ui-btn-active,
+    .ui-bar-{swatch} .ui-btn.ui-btn-active,
+    .ui-body-{swatch} .ui-btn.ui-btn-active,
+    body .ui-group-theme-{swatch} .ui-btn.ui-btn-active,
+    body .ui-btn.ui-btn-{swatch}.ui-btn-active,
+    .ui-page-theme-{swatch} .ui-checkbox-on:after,
+    .ui-bar-{swatch} .ui-checkbox-on:after,
+    .ui-body-{swatch} .ui-checkbox-on:after,
+    body .ui-group-theme-{swatch} .ui-checkbox-on:after,
+    .ui-btn.ui-checkbox-on.ui-btn-{swatch}:after,
+    .ui-page-theme-{swatch} .ui-flipswitch-active,
+    .ui-bar-{swatch} .ui-flipswitch-active,
+    .ui-body-{swatch} .ui-flipswitch-active,
+    body .ui-group-theme-{swatch} .ui-flipswitch-active,
+    body .ui-flipswitch.ui-bar-{swatch}.ui-flipswitch-active,
+    .ui-page-theme-{swatch} .ui-slider-track .ui-btn-active,
+    .ui-bar-{swatch} .ui-slider-track .ui-btn-active,
+    .ui-body-{swatch} .ui-slider-track .ui-btn-active,
+    body .ui-group-theme-{swatch} .ui-slider-track .ui-btn-active,
+    body div.ui-slider-track.ui-body-{swatch} .ui-btn-active
+      background-color: highlight_color
+      border-color: highlight_color
+      color: font_color
 
-  .ui-btn-down-{swatch}
-    border: 1px solid highlight_color
-    background: highlight_color
-    font-weight: bold
-    color:  font_color
+    .ui-page-theme-{swatch} .ui-radio-on:after,
+    .ui-bar-{swatch} .ui-radio-on:after,
+    .ui-body-{swatch} .ui-radio-on:after,
+    body .ui-group-theme-{swatch} .ui-radio-on:after,
+    .ui-btn.ui-radio-on.ui-btn-{swatch}:after
+      border-color: highlight_color
 
-    &:visited
-    &:hover
-    a.ui-link-inherit
-      color:  font_color
-
-  .ui-btn-up-{swatch}
-  .ui-btn-hover-{swatch}
-  .ui-btn-down-{swatch}
-    font-family: Lato, sans-serif
-    text-decoration: none
-
-  .ui-bar-{swatch}
-    .ui-btn-up-a
-    .ui-btn-down-a
-    .ui-btn-hover-a
-      background-color: primary_color
-      border: 1px solid primary_color
+    .ui-page-theme-{swatch} .ui-btn:focus,
+    .ui-bar-{swatch} .ui-btn:focus,
+    .ui-body-{swatch} .ui-btn:focus,
+    body .ui-group-theme-{swatch} .ui-btn:focus,
+    body .ui-btn.ui-btn-{swatch}:focus, 
+    .ui-page-theme-{swatch} .ui-focus,
+    .ui-bar-{swatch} .ui-focus,
+    .ui-body-{swatch} .ui-focus,
+    body .ui-group-theme-{swatch} .ui-focus,
+    body .ui-btn-{swatch}.ui-focus,
+    body .ui-body-{swatch}.ui-focus 
+      -webkit-box-shadow: 0 0 12px highlight_color
+      -moz-box-shadow: 0 0 12px highlight_color
+      box-shadow: 0 0 12px highlight_color

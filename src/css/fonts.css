@@ -45,91 +45,95 @@
 /* Use the following CSS code if you want to have a class per icon */
 /*Instead of a list of all class selectors,
  *you can use the generic selector below, but it's slower:
- *[class*="fui-"]:before { */
-.ui-icon-flat-video:before,
-.ui-icon-flat-time:before,
-.ui-icon-flat-settings:before,
-.ui-icon-flat-plus:before,
-.ui-icon-flat-new:before,
-.ui-icon-flat-menu:before,
-.ui-icon-flat-man:before,
-.ui-icon-flat-mail:before,
-.ui-icon-flat-lock:before,
-.ui-icon-flat-location:before,
-.ui-icon-flat-heart:before,
-.ui-icon-flat-eye:before,
-.ui-icon-flat-cross:before,
-.ui-icon-flat-cmd:before,
-.ui-icon-flat-checkround:before,
-.ui-icon-flat-checkmark:before,
-.ui-icon-flat-calendar:before,
-.ui-icon-flat-bubble:before,
-.ui-icon-flat-volume:before,
-.ui-icon-flat-camera:before {
+ *[class*="fui-"]:after { */
+.ui-icon-flat-video:after,
+.ui-icon-flat-time:after,
+.ui-icon-flat-settings:after,
+.ui-icon-flat-plus:after,
+.ui-icon-flat-new:after,
+.ui-icon-flat-menu:after,
+.ui-icon-flat-man:after,
+.ui-icon-flat-mail:after,
+.ui-icon-flat-lock:after,
+.ui-icon-flat-location:after,
+.ui-icon-flat-heart:after,
+.ui-icon-flat-eye:after,
+.ui-icon-flat-cross:after,
+.ui-icon-flat-cmd:after,
+.ui-icon-flat-checkround:after,
+.ui-icon-flat-checkmark:after,
+.ui-icon-flat-calendar:after,
+.ui-icon-flat-bubble:after,
+.ui-icon-flat-volume:after,
+.ui-icon-flat-camera:after {
   font-family: "Flat-UI-Icons-24";
+  font-size: 14px;
   speak: none;
   font-style: normal;
   font-weight: normal;
-  line-height: 18px;
+  line-height: 20px;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: none;
+
 }
 
-.ui-icon-flat-video:before {
+.ui-icon-flat-video:after {
   content: "\e000"; }
 
-.ui-icon-flat-time:before {
+.ui-icon-flat-time:after {
   content: "\e001"; }
 
-.ui-icon-flat-settings:before {
+.ui-icon-flat-settings:after {
   content: "\e002"; }
 
-.ui-icon-flat-plus:before {
+.ui-icon-flat-plus:after {
   content: "\e003"; }
 
-.ui-icon-flat-new:before {
+.ui-icon-flat-new:after {
   content: "\e005"; }
 
-.ui-icon-flat-menu:before {
+.ui-icon-flat-menu:after {
   content: "\e006"; }
 
-.ui-icon-flat-man:before {
+.ui-icon-flat-man:after {
   content: "\e007"; }
 
-.ui-icon-flat-mail:before {
+.ui-icon-flat-mail:after {
   content: "\e008"; }
 
-.ui-icon-flat-lock:before {
+.ui-icon-flat-lock:after {
   content: "\e009"; }
 
-.ui-icon-flat-location:before {
+.ui-icon-flat-location:after {
   content: "\e00a"; }
 
-.ui-icon-flat-heart:before {
+.ui-icon-flat-heart:after {
   content: "\e00b"; }
 
-.ui-icon-flat-eye:before {
+.ui-icon-flat-eye:after {
   content: "\e00c"; }
 
-.ui-icon-flat-cross:before {
+.ui-icon-flat-cross:after {
   content: "\e00d"; }
 
-.ui-icon-flat-cmd:before {
+.ui-icon-flat-cmd:after {
   content: "\e00e"; }
 
-.ui-icon-flat-checkround:before {
+.ui-icon-flat-checkround:after {
   content: "\e00f"; }
 
-.ui-icon-flat-checkmark:before {
+.ui-icon-flat-checkmark:after {
   content: "\e010"; }
 
-.ui-icon-flat-calendar:before {
+.ui-icon-flat-calendar:after {
   content: "\e011"; }
 
-.ui-icon-flat-bubble:before {
+.ui-icon-flat-bubble:after {
   content: "\e012"; }
 
-.ui-icon-flat-volume:before {
+.ui-icon-flat-volume:after {
   content: "\e013"; }
 
-.ui-icon-flat-camera:before {
+.ui-icon-flat-camera:after {
   content: "\e004"; }

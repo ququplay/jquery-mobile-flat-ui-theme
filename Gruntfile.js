@@ -1,11 +1,13 @@
 module.exports = function (grunt) {
 
   var cssFiles =  [
-    'src/css/fonts.css',
+    'src/css/jquery.mobile.internal-png.css',
+    'src/css/jquery.mobile.structure.css',
+    'src/css/jquery.mobile.structure.custom.css',
+    'src/css/jquery.mobile.theme.css',
     'src/css/swatches.css',
-    'src/css/global.css',
-    'src/css/jqm.structure.css',
-    'src/css/custom.css' ];
+    'src/css/fonts.css'
+  ];
 
   grunt.initConfig({
     concat: {

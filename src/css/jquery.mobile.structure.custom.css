@@ -1,0 +1,7 @@
+.ui-collapsible-heading .ui-btn {
+	font-size: .9em;
+}
+
+.ui-btn-icon-notext:after {
+	text-indent: 0px;
+}
