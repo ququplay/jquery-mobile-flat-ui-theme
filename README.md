@@ -1,6 +1,6 @@
 ## Update (01/16/2015)
 
-### Please check our new [Premium Theme](https://github.com/ququplay/jquery-mobile-ios8-theme). We think you will like it.
+### Please check our new [Premium Theme](http://store.ququplay.com). We think you will like it.
 
 ## jQuery Mobile Flat-UI Theme
 
